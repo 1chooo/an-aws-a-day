@@ -13,30 +13,6 @@ $ zip -r line-bot-sdk.zip ./python
 $ rm -rf ./python
 ```
 
-### Create `openai` Layer [^1]
-
-```shell
-$ mkdir python
-$ cd python
-$ pip install --target . openai 
-$ cd ..
-$ zip -r openai.zip ./python
-$ rm -rf ./python
-$ echo "Created openai.zip"
-```
-
-### Create `openai` Layer [^1]
-
-```shell
-$ mkdir python
-$ cd python
-$ pip install --target . openai 
-$ cd ..
-$ zip -r openai.zip ./python
-$ rm -rf ./python
-$ echo "Created openai.zip"
-```
-
 ### or With shell script
 ```shell
 $ chmod +x ./build_layer.sh
