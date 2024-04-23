@@ -60,7 +60,7 @@ else:
 
 # Upload a file to S3
 local_file_path = "./demo.txt"
-file_name = "demo.txt"
+file_name = "/test/demo.txt"
 s3_client.upload_file(
     local_file_path, aws_bucket_name, file_name)
 
