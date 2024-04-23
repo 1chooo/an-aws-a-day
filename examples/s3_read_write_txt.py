@@ -71,7 +71,7 @@ s3_client.download_file(
 print("Downloaded file to ./tmp/demo.txt")
 
 with open(lambda_tmp_file_file, "a") as f:
-    f.write("\nHello World!2")
+    f.write("\nHello World!23")
 print("Added a line to the file")
 
 # Upload the updated file to S3
