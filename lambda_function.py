@@ -23,16 +23,11 @@ CHANNEL_SECRET = os.getenv("CHANNEL_SECRET")
 configuration = Configuration(access_token=CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(channel_secret=CHANNEL_SECRET)
 
-aws_access_key_id = os.environ["AWS_CLIENT_ACCESS_KEY_ID"]
-aws_secret_access_key = os.environ["AWS_CLIENT_SECRET_ACCESS_KEY"]
-aws_bucket_arn = os.environ["AWS_CLIENT_BUCKET_ARN"]
 aws_region_name = os.environ["AWS_CLIENT_REGION_NAME"]
 aws_bucket_name = os.environ["AWS_CLIENT_BUCKET_NAME"]
 
 s3_client = boto3.client(
     "s3",
-    aws_access_key_id = aws_access_key_id,
-    aws_secret_access_key = aws_secret_access_key,
     region_name=aws_region_name
 )
 
