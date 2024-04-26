@@ -1,4 +1,4 @@
-# AWS Educate 101 Line Bot
+# An AWS a Day - AWS Certificate Preparation Series
 
 Develop a Line bot using AWS Lambda Functions and `linebot.v3` library, utilizing `Python 3.12` runtime. 
 
