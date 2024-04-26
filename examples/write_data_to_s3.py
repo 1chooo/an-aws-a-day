@@ -1,2 +1,0 @@
-# https://stackoverflow.com/questions/40336918/how-to-write-a-file-or-data-to-an-s3-object-using-boto3
-# https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/put_object.html
