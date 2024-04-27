@@ -1,5 +1,7 @@
 # An AWS a Day - AWS Certificate Preparation Series
 
+![](./docs/imgs/an-aws-a-day-arch.png)
+
 Develop a Line bot using AWS Lambda Functions and `linebot.v3` library, utilizing `Python 3.12` runtime. 
 
 > [!IMPORTANT]
